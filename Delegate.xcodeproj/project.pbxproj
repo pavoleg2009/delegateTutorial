@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282119201DE86F7600759E39 /* SendingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2821191F1DE86F7600759E39 /* SendingVC.swift */; };
 		28DCDBF11DE86379005066BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DCDBF01DE86379005066BE /* AppDelegate.swift */; };
-		28DCDBF31DE86379005066BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DCDBF21DE86379005066BE /* ViewController.swift */; };
+		28DCDBF31DE86379005066BE /* ReceivingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DCDBF21DE86379005066BE /* ReceivingVC.swift */; };
 		28DCDBF61DE86379005066BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DCDBF41DE86379005066BE /* Main.storyboard */; };
 		28DCDBF81DE86379005066BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DCDBF71DE86379005066BE /* Assets.xcassets */; };
 		28DCDBFB1DE86379005066BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DCDBF91DE86379005066BE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2821191F1DE86F7600759E39 /* SendingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingVC.swift; sourceTree = "<group>"; };
 		28DCDBED1DE86379005066BE /* Delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DCDBF01DE86379005066BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28DCDBF21DE86379005066BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28DCDBF21DE86379005066BE /* ReceivingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivingVC.swift; sourceTree = "<group>"; };
 		28DCDBF51DE86379005066BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28DCDBF71DE86379005066BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28DCDBFA1DE86379005066BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				28DCDBF01DE86379005066BE /* AppDelegate.swift */,
-				28DCDBF21DE86379005066BE /* ViewController.swift */,
+				28DCDBF21DE86379005066BE /* ReceivingVC.swift */,
+				2821191F1DE86F7600759E39 /* SendingVC.swift */,
 				28DCDBF41DE86379005066BE /* Main.storyboard */,
 				28DCDBF71DE86379005066BE /* Assets.xcassets */,
 				28DCDBF91DE86379005066BE /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					28DCDBEC1DE86379005066BE = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4Y4DUJVCEZ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28DCDBF31DE86379005066BE /* ViewController.swift in Sources */,
+				28DCDBF31DE86379005066BE /* ReceivingVC.swift in Sources */,
+				282119201DE86F7600759E39 /* SendingVC.swift in Sources */,
 				28DCDBF11DE86379005066BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Y4DUJVCEZ;
 				INFOPLIST_FILE = Delegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.just-eng.Delegate";
@@ -270,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Y4DUJVCEZ;
 				INFOPLIST_FILE = Delegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.just-eng.Delegate";
@@ -297,6 +304,7 @@
 				28DCDC011DE86379005066BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
